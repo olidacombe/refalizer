@@ -1,4 +1,6 @@
 //! Make sure your branch names are good to drive.
+//!
+//! Substitutes whitespace with underscore, abides by [the rules](https://git-scm.com/docs/git-check-ref-format).
 
 #![deny(clippy::pedantic)]
 #![allow(clippy::missing_errors_doc, clippy::must_use_candidate)]

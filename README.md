@@ -4,4 +4,6 @@
 
 Make sure your branch names are good to drive.
 
+Substitutes whitespace with underscore, abides by [the rules](https://git-scm.com/docs/git-check-ref-format).
+
 <!-- cargo-rdme end -->
