@@ -1,9 +1,11 @@
 [package]
-name = "refalizer"
-version = "0.1.0"
+authors = ["Oli Dacombe <olidacombe@gmail.com>"]
+description = "Make sure your branch names are good to drive"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT OR Apache-2.0"
+name = "refalizer"
+repository = "https://github.com/olidacombe/refalizer"
+version = "0.1.0"
 
 [dependencies]
 color-eyre = "0.6.2"
