@@ -1,3 +1,8 @@
+//! Make sure your branch names are good to drive.
+
+#![deny(clippy::pedantic)]
+#![allow(clippy::missing_errors_doc, clippy::must_use_candidate)]
+
 use thiserror::Error;
 
 #[derive(Error, Debug)]
