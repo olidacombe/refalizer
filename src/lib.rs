@@ -1,6 +1,13 @@
 //! Make sure your branch names are good to drive.
 //!
 //! Substitutes whitespace with underscore, abides by [the rules](https://git-scm.com/docs/git-check-ref-format).
+//!
+//! ## Usage
+//!
+//! ```bash
+//! refalizer many "disjoint (ish)" Arguments
+//! ```
+//! would return `many_disjoint_(ish)_Arguments`
 
 #![deny(clippy::pedantic)]
 #![allow(clippy::missing_errors_doc, clippy::must_use_candidate)]
